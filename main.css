@@ -1,39 +1,35 @@
 *{
   box-sizing: border-box;
 }
-h1{
-  font: 700 2rem Arial;
+body{
+  font-size: 1.2rem;
 }
-h2{
-  font: 1.2rem arial;
+header{
+  background: url(https://orange.codeberryschool.com/content/images/project-assets/page-header-bg.jpg) no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  color: antiquewhite;
+  text-align: center;
+  font-family: 'Cormorant Garamond', serif;
+  position: relative;
 }
-.btn{
-  background-color: greenyellow;
-  margin: 10px;
-  border: 10px solid orange;
-  padding: 10px;
+header h1{
+  position: inherit;
+  font-size: 6rem;
+  line-height: 8rem;
+  top: 35vh;
 }
-.headerset{
-    background-color: beige;
-  margin: 10px;
-  border: 10px solid blue;
-  padding: 10px;
+.author{
+  position: inherit;
+  top: 30vh;
 }
-.btnset1{
-  display: inline
+.date{
+  position: inherit;
+  top: 33vh;
+  font-size: 1rem;
 }
-
-.btnset2{
-  display: inline-block;
-}
-.btn22{
-  margin: 0px;
-  border: 0px solid orange;
-  padding: 0px;
-}
-.btnset3{
-  display: block;
-}
-.disp-flex{
-  display: flex;
+.slogen{
+  position: inherit;
+  top: 40vh;
 }
